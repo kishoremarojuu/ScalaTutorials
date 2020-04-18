@@ -4,7 +4,9 @@ object Scala_101_StrinInterpolation {
 
 
     val name = "mark"
-    val age = 18.5
+    val age = 18.5  //val is immutable
+
+    var a = 10; //var is mutable
     println(name + " is " + age + " years old")
 
     //s String Interpolator
